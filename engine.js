@@ -13,7 +13,6 @@ function computer_move() {
 }
 
 function compare(you, machine) {
-  var verdict = "lose";
   played++;
   if (you == machine) {
     draw++;
