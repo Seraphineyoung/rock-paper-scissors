@@ -1,3 +1,50 @@
-.active {
+.win {
   background: green;
+}
+
+.lost {
+  background: red;
+}
+
+.draw {
+  background: yellow;
+}
+
+
+body{
+  background-color: #FF5733 ;
+
+}
+
+.mycolor {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  margin-top: 5rem;
+
+}
+
+h2{
+  margin: 2rem;
+}
+
+.mybuttonColor{
+    background-color: #750040;
+    font-size: 3rem;
+      color: white;
+
+}
+
+.mybutton{
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.bigger {
+  font-size: 2rem;
+}
+
+.btnColor {
+  color: #ccff00;
+  background-color : black;
 }
