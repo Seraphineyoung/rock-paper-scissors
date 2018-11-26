@@ -30,18 +30,18 @@ h2{
 
 .mybuttonColor{
     background-color: #750040;
-    font-size: 3rem;
+    font-size: 2rem;
       color: white;
 
 }
 
 .mybutton{
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
 .bigger {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .btnColor {

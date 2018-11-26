@@ -11,6 +11,8 @@ function computer_move() {
   var play_machine = Math.floor(Math.random() * 3);
   computer_play = choices[play_machine];
 $("#computer_move").html(" " + computer_play);
+
+// $(#my_images).append('<img src="css\' + computer_play + png '"></img>')
 }
 
 function compare(you, machine) {
