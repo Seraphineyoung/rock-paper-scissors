@@ -7,7 +7,7 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-text-size-adjust: 100%;
-	
+
 	margin: 0;
 	padding: 0;
 }
@@ -16,11 +16,11 @@ article, aside, footer, header, main, nav, section {
 	display: block;
 }
 
-img {
+/* img {
 	max-width: 100%;
 	height: auto;
 	display: block;
-}
+} */
 
 button, fieldset, input, textarea, select, fieldset {
 	background: none;
