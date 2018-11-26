@@ -1,5 +1,5 @@
 // listen to button clicked
-var choices = ["Rock", "Paper", "Scissors"];
+var choices = ["rock", "paper", "scissors"];
 
 var won = 0;
 var lost = 0;
@@ -31,9 +31,9 @@ function compare(you, machine) {
   }
 
   if (
-    you == "Rock" && machine == "Scissors" ||
-    you == "Paper" && machine == "Rock" ||
-    you == "Scissors" && machine == "Paper") {
+    you == "rock" && machine == "scissors" ||
+    you == "paper" && machine == "rock" ||
+    you == "scissors" && machine == "paper") {
     won++;
     verdict = "Won"
     $("body").addClass("win");
@@ -41,9 +41,9 @@ function compare(you, machine) {
   }
 
   if (
-    machine == "Rock" && you == "Scissors" ||
-    machine == "Paper" && you == "Rock" ||
-    machine == "Scissors" && you == "Paper") {
+    machine == "rock" && you == "scissors" ||
+    machine == "paper" && you == "rock" ||
+    machine == "scissors" && you == "paper") {
     lost++;
     verdict = "Lost"
     $("body").addClass("lost");
